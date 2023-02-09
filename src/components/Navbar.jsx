@@ -35,7 +35,7 @@ const Sidenav = () => {
         </button>
       </div>
       {nav ? (
-        <div className="fixed w-screen h-screen z-[999] bg-white flex flex-col gap-[0.975rem] pt-6 pl-4 text-[0.925rem] ">
+        <div className="fixed w-screen h-[92vh] z-[999] bg-white flex flex-col gap-[0.975rem] pt-6 pl-4 text-[0.925rem] ">
           <span>Microsoft 365</span> <hr />
           <span>Teams</span> <hr />
           <span>Windows</span> <hr />
