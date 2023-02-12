@@ -58,7 +58,7 @@ const Slider = () => {
     
     <div className="relative  mt-2">
       <img
-        className="w-screen h-[36rem] md:h-[52rem] xl:h-[52rem]"
+        className="w-screen h-[36rem] md:h-[52rem] xl:h-[42rem]"
         src={images[index].src}
         alt={images[index].alt}
       />
