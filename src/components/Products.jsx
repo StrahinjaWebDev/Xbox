@@ -8,33 +8,44 @@ import Signin from '../assets/SignIn.svg'
 
 function Products() {
   return (
-    <div className='grid  grid-rows-4 pl-10 pt-12 '>
-      <>
-<div className=' grid grid-cols-3 items-center '>
-  <img className='h-[2.6rem] w-[3.375rem] ml-2' src={GamePass} alt="" /> 
-  <img className='h-[2.6rem] w-[3.375rem]' src={Games} alt="" />
-  <img className='h-[2.6rem] w-[3.375rem]' src={Consoles} alt="" />
-</div>
-<div className=' grid grid-cols-3 '>
-<label className='text-green-600 font-semibold'>Game Pass</label>
-<label className='text-green-600 font-semibold'>Games</label>
-<label className='text-green-600 font-semibold'>Consoles</label>
-</div>
-</>
+    <div className='h-[15rem] mt-8  content-center grid grid-rows-2 grid-cols-3 pl-[3rem]  md:grid-cols-6 md:grid-rows-none md:h-[7rem] md:mt-0 md:pl-[3rem]  '>
+   
+    <div>
+      <img className='w-1/2' src={GamePass} alt="" />
+      <span className='font-bold text-green-600  '>Game pass</span>
+      </div>
+   
 
-<div className='grid grid-cols-3 '>
-<img className='h-[2.6rem] w-[3.375rem] ml-2' src={Accesories} alt="" />
-<img className='h-[2.6rem] w-[3.375rem]' src={Play} alt="" />
-<img className='h-[2.6rem] w-[3.375rem]' src={Signin} alt="" />
-</div>
-<div className=' grid grid-cols-3 '>
-<label className='text-green-600 font-semibold'>Accessories</label>
-<label className='text-green-600 font-semibold ml-2.5'>Play</label>
-<label className='text-green-600 font-semibold'>Sign In</label>
+   <div>
+      <img className='w-1/2' src={Games} alt="" />
+      <span className='font-bold text-green-600 pl-1'>Games</span>
+      </div>  
 
+      <div>
+      <img className='w-1/2' src={Consoles} alt="" />
+      <span className='font-bold text-green-600 '>Consoles</span>
+      </div>
+    
+    <div>
+      <img className='w-1/2' src={Accesories} alt="" />
+      <span className='font-bold text-green-600 '>Accesories</span>
+      </div>
+    
+   <div>
+      <img className='w-1/2' src={Play} alt="" />
+      <span className='font-bold text-green-600 pl-3'>Play</span>
+      </div>
+    
+   <div>
+      <img className='w-1/2' src={Signin} alt="" />
+      <span className='font-bold text-green-600 '>Sign In</span>
+      </div>
+    
+      </div>
+      
+      
+     
 
-</div>
-    </div>
   )
 }
 

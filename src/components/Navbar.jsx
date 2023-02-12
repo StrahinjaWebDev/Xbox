@@ -18,21 +18,46 @@ const Sidenav = () => {
 
   return (
     <>
-      <div className="flex gap-8 items-center pt-3 ">
-        <button onClick={handleNav} className="pl-3">
+      <div className="flex justify-center items-center pt-3 gap-[4rem] md:gap-[14rem] xl:gap-0 xl:ml-[8rem] xl:w-[80%] ">
+        <div className="flex justify-center items-center gap-[2rem]  lg:hidden ">
+        <button onClick={handleNav} className="">
           <RxHamburgerMenu size="1.5rem" />
         </button>
 
-        <button  >
-          <VscSearch size="1rem" />
+        <button className="pt-1 lg:hidden " >
+          <VscSearch size="1rem " />
         </button>
-        <img className="w-[7rem]  pb-2 ml-[2rem]" src={Microsoft} alt="/" />
-        <button>
+        </div>
+        <div className="xl:flex xl:gap-7 xl:justify-center xl:items-center">
+
+
+        <img className="w-[6.8rem] xl:w-[10%] xl:h-[10%] pb-2 " src={Microsoft} alt="/" />
+        <label className="text-3xl hidden xl:block " >|</label>
+        
+        
+        <img className="hidden xl:block xl:w-[6%] xl:h-[6%] " src={XBOX}  /> 
+            <span className="hidden xl:block">Game Pass</span> 
+            <span className="hidden xl:block">Games</span> 
+            <span className="hidden xl:block">Devices</span> 
+            <span className="hidden xl:block">Play</span> 
+            <span className="hidden xl:block">Community</span> 
+            <span className="hidden xl:block">Support</span> 
+            <span className="hidden xl:block">My Xbox</span> 
+            <span className="hidden xl:block">Developers</span>
+        </div>
+
+      
+
+        <div className="flex justify-center items-center gap-[2rem]">
+        <button >
           <AiOutlineShoppingCart size="1.1rem" />
         </button>
+        
         <button >
+        
           <BsPersonPlus size="1.2rem" />
         </button>
+        </div>
       </div>
       {nav ? (
         <div className="fixed w-screen h-[92vh] z-[999] bg-white flex flex-col gap-[0.975rem] pt-6 pl-4 text-[0.925rem] ">
