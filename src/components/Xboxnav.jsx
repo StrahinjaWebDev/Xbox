@@ -13,7 +13,7 @@ const Xboxnav = () => {
     <div className="flex ml:hidden">
        <img className="w-[4.8rem] pt-[1rem] pl-3 z-[99]" src={XBOX} alt="/" ></img>
         <button onClick={dropdown} className="pl-4 pt-5 z-[99]">< BsChevronDown size='1rem'/></button> {set ? ( 
-          <div className='fixed w-screen h-[58.4vh] z-[98] bg-white flex flex-col gap-[0.950rem] pt-[3.5rem] pl-4 text-[0.925rem]'>
+          <div className='fixed w-screen h-[58.4vh] z-[98] bg-white flex flex-col gap-[0.950rem] pt-[3.5rem] pl-4 text-[0.925rem] md:h-[51.2vh]'>
 
             <span>Home</span> <hr />
             <span>Game Pass</span> <hr />

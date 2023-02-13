@@ -17,8 +17,8 @@ const Sidenav = () => {
   return (
     <>
       <div className="flex justify-center items-center pt-3 gap-[4rem] md:gap-[14rem] xl:gap-0  xl:w-screen ">
-        <div className="flex justify-center items-center gap-[2rem]  lg:hidden ">
-          <button onClick={handleNav} className="">
+        <div className="flex justify-center items-center gap-[1rem]   ">
+          <button  onClick={handleNav} className="lg:hidden">
             <RxHamburgerMenu size="1.5rem" />
           </button>
 
@@ -26,7 +26,7 @@ const Sidenav = () => {
             <VscSearch size="1rem " />
           </button>
         </div>
-        <div className="xl:flex xl:gap-12 xl:items-center xl:justify-center">
+        <div className="flex gap-12 items-center justify-center ">
           <img
             className="w-[6.8rem] xl:h-[10%] pb-2 "
             src={Microsoft}
@@ -36,22 +36,22 @@ const Sidenav = () => {
 
           <img className="hidden xl:block xl:w-[6%] xl:h-[6%] " src={XBOX} />
           <div className="flex gap-3 items-center ">
-            <span className="hidden xl:block xl:text-sm">Game Pass</span>
-            <AiOutlineDown className="hidden xl:block" size="0.7rem" />
-            <span className="hidden xl:block xl:text-sm">Games</span>
-            <AiOutlineDown className="hidden xl:block" size="0.7rem" />
-            <span className="hidden xl:block xl:text-sm">Devices</span>
-            <AiOutlineDown className="hidden xl:block" size="0.7rem" />
-            <span className="hidden xl:block xl:text-sm">Play</span>
-            <AiOutlineDown className="hidden xl:block" size="0.7rem" />
-            <span className="hidden xl:block xl:text-sm">Community</span>
-            <AiOutlineDown className="hidden xl:block" size="0.7rem" />
-            <span className="hidden xl:block xl:text-sm">Support</span>
-            <AiOutlineDown className="hidden xl:block" size="0.7rem" />
-            <span className="hidden xl:block xl:text-sm">My Xbox</span>
-            <AiOutlineDown className="hidden xl:block" size="0.7rem" />
-            <span className="hidden xl:block xl:text-sm">Developers</span>
-            <AiOutlineDown className="hidden xl:block" size="0.7rem" />
+            <span className="hidden ml:block xl:text-sm">Game Pass</span>
+            <AiOutlineDown className="hidden ml:block" size="0.7rem" />
+            <span className="hidden ml:block xl:text-sm">Games</span>
+            <AiOutlineDown className="hidden ml:block" size="0.7rem" />
+            <span className="hidden devi:block xl:text-sm">Devices</span>
+            <AiOutlineDown className="hidden devi:block" size="0.7rem" />
+            <span className="hidden play:block xl:text-sm">Play</span>
+            <AiOutlineDown className="hidden play:block" size="0.7rem" />
+            <span className="hidden comm:block xl:text-sm">Community</span>
+            <AiOutlineDown className="hidden comm:block" size="0.7rem" />
+            <span className="hidden supp:block xl:text-sm">Support</span>
+            <AiOutlineDown className="hidden supp:block" size="0.7rem" />
+            <span className="hidden myxb:block xl:text-sm">My Xbox</span>
+            <AiOutlineDown className="hidden  myxb:block" size="0.7rem" />
+            <span className="hidden dev:block xl:text-sm">Developers</span>
+            <AiOutlineDown className="hidden dev:block" size="0.7rem" />
           </div>
         </div>
 
@@ -62,23 +62,23 @@ const Sidenav = () => {
             Search{" "}
           </button>
 
-          <button className="hidden xl:block">
+          <button className="hidden ml:block">
             <VscSearch size="1rem " />
           </button>
 
-          <span className="hidden xl:block xl:text-sm">Cart</span>
+          <span className="hidden csin:block xl:text-sm">Cart</span>
           <button>
             <AiOutlineShoppingCart size="1.1rem" />
           </button>
 
-          <span className="hidden xl:block xl:text-sm">Sign In</span>
+          <span className="hidden csin:block xl:text-sm">Sign In</span>
           <button>
             <BsPersonPlus size="1.2rem" />
           </button>
         </div>
       </div>
       {nav ? (
-        <div className="fixed w-screen h-[92vh] z-[999] bg-white flex flex-col gap-[0.975rem] pt-6 pl-4 text-[0.925rem] ">
+        <div className="fixed w-screen h-[92vh] z-[999] bg-white flex flex-col gap-[0.975rem] pt-6 pl-4 text-[0.925rem] md:h-[80.5%]">
           <span>Microsoft 365</span> <hr />
           <span>Teams</span> <hr />
           <span>Windows</span> <hr />

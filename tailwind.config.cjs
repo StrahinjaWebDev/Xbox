@@ -21,11 +21,24 @@ module.exports = {
       // => @media (min-width: 768px) { ... }
       'ml': '860px',
 
+      'devi': '908px',
+
+      'play':'950px',
+
       'lg': '1024px',
-      // => @media (min-width: 1024px) { ... }
+      // => @media (min-width: 1024px) { .. }
+      'comm':'1110px',
+
+      'supp':'1210px',
 
       'xl': '1280px',
       // => @media (min-width: 1280px) { ... }
+
+      'csin':'1400px',
+
+      'myxb':'1430px',
+
+      'dev': '1455px',
 
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }

@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+  .bg-white-20 {
+    background-image: linear-gradient(to right, white 20%, transparent 20%);
+  }
