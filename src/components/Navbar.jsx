@@ -26,15 +26,15 @@ const Sidenav = () => {
             <VscSearch size="1rem " />
           </button>
         </div>
-        <div className="flex gap-12 items-center justify-center ">
+        <div className="flex gap-5 items-center md:gap-12 justify-center xl:gap-6">
           <img
-            className="w-[6.8rem] xl:h-[10%] pb-2 "
+            className="w-[6.8rem] xl:w-[10%] pb-2 "
             src={Microsoft}
             alt="/"
           />
           <label className="text-3xl hidden xl:block ">|</label>
 
-          <img className="hidden xl:block xl:w-[6%] xl:h-[6%] " src={XBOX} />
+          <img className="hidden xl:block xl:w-[7%] xl:h-[6%] " src={XBOX} />
           <div className="flex gap-3 items-center ">
             <span className="hidden ml:block xl:text-sm">Game Pass</span>
             <AiOutlineDown className="hidden ml:block" size="0.7rem" />
@@ -55,9 +55,9 @@ const Sidenav = () => {
           </div>
         </div>
 
-        <div className="flex justify-center items-center gap-[2rem] xl:gap-5">
-          <span className="hidden xl:block xl:text-sm">All Microsoft</span>
-          <AiOutlineDown className="hidden xl:block" size="0.7rem" />
+        <div className="flex justify-center items-center gap-[2rem]   xl:w-[40%] xl:gap-2">
+          <span className="hidden ml:block xl:text-sm ">All Microsoft </span>
+          <AiOutlineDown className="hidden ml:block" size="0.7rem" />
           <button className="hidden xl:block   items-center gap-2 xl:text-sm">
             Search{" "}
           </button>
