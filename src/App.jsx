@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Products from './components/Products'
 import  Slider  from './components/Slider'
 import Xboxnav from './components/Xboxnav'
+import Footer from './components/Footer'
 
 
 
@@ -17,7 +18,7 @@ function App() {
       < Slider />
       < Products />
       < Featured />
-      
+      < Footer />
     </div>
   )
 }
